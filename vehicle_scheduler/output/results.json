@@ -1,0 +1,156 @@
+{
+  "status": "success",
+  "timestamp": "2026-05-18T06:26:53.467Z",
+  "summary": {
+    "totalDepots": 5,
+    "totalVehicles": 31,
+    "totalMechanicHours": 644
+  },
+  "depots": [
+    {
+      "depotID": 1,
+      "availableMechanicHours": 60,
+      "maxImpactScore": 117,
+      "selectedVehicles": [
+        {
+          "TaskID": "e194df00-2e3d-4a82-bf5e-9cad13e32b20",
+          "Duration": 5,
+          "Impact": 3
+        },
+        {
+          "TaskID": "c53adeb1-7825-4b59-a239-f2d29a2a9960",
+          "Duration": 1,
+          "Impact": 1
+        },
+        {
+          "TaskID": "ca43be58-1da5-4b7b-b8cb-2381e1b6b610",
+          "Duration": 4,
+          "Impact": 3
+        },
+        {
+          "TaskID": "9932e61b-9ebc-4faf-a169-998b7270d1e2",
+          "Duration": 4,
+          "Impact": 5
+        },
+        {
+          "TaskID": "fb8c2507-8d8b-4f3b-b02f-abba0cec3f8e",
+          "Duration": 8,
+          "Impact": 8
+        },
+        {
+          "TaskID": "3f5d9908-158d-4a85-b8b7-ddde36e8f180",
+          "Duration": 7,
+          "Impact": 9
+        },
+        {
+          "TaskID": "a8b88b88-78db-4303-9d52-539e16da00f2",
+          "Duration": 2,
+          "Impact": 2
+        }
+      ],
+      "selectedCount": 7,
+      "totalDurationUsed": 31,
+      "utilizationPercentage": 51.67,
+      "remainingCapacity": 29
+    },
+    {
+      "depotID": 2,
+      "availableMechanicHours": 135,
+      "maxImpactScore": 149,
+      "selectedVehicles": [
+        {
+          "TaskID": "71d00638-99cd-4ca3-95f7-fde15c10cd1b",
+          "Duration": 7,
+          "Impact": 2
+        },
+        {
+          "TaskID": "c53adeb1-7825-4b59-a239-f2d29a2a9960",
+          "Duration": 1,
+          "Impact": 1
+        },
+        {
+          "TaskID": "74fd5103-9a26-46f1-a423-7040e1a48296",
+          "Duration": 7,
+          "Impact": 2
+        },
+        {
+          "TaskID": "13c28259-8220-4b7d-9c04-ae957679d901",
+          "Duration": 7,
+          "Impact": 2
+        },
+        {
+          "TaskID": "9f17b971-7b46-4b96-a093-f934b7c7f7fc",
+          "Duration": 4,
+          "Impact": 1
+        }
+      ],
+      "selectedCount": 5,
+      "totalDurationUsed": 26,
+      "utilizationPercentage": 19.26,
+      "remainingCapacity": 109
+    },
+    {
+      "depotID": 3,
+      "availableMechanicHours": 188,
+      "maxImpactScore": 149,
+      "selectedVehicles": [],
+      "selectedCount": 0,
+      "totalDurationUsed": 0,
+      "utilizationPercentage": 0,
+      "remainingCapacity": 188
+    },
+    {
+      "depotID": 4,
+      "availableMechanicHours": 97,
+      "maxImpactScore": 137,
+      "selectedVehicles": [
+        {
+          "TaskID": "c666523e-8a0d-479a-ab2b-169491d5a935",
+          "Duration": 8,
+          "Impact": 4
+        },
+        {
+          "TaskID": "31d0426a-e7a1-4d39-8f26-14f69f153f53",
+          "Duration": 6,
+          "Impact": 2
+        },
+        {
+          "TaskID": "87228a64-021f-4280-abbd-03667b27dc53",
+          "Duration": 8,
+          "Impact": 4
+        },
+        {
+          "TaskID": "d40574d1-491b-4008-87e5-698e1980a311",
+          "Duration": 5,
+          "Impact": 3
+        },
+        {
+          "TaskID": "a8b88b88-78db-4303-9d52-539e16da00f2",
+          "Duration": 2,
+          "Impact": 2
+        }
+      ],
+      "selectedCount": 5,
+      "totalDurationUsed": 29,
+      "utilizationPercentage": 29.9,
+      "remainingCapacity": 68
+    },
+    {
+      "depotID": 5,
+      "availableMechanicHours": 164,
+      "maxImpactScore": 149,
+      "selectedVehicles": [],
+      "selectedCount": 0,
+      "totalDurationUsed": 0,
+      "utilizationPercentage": 0,
+      "remainingCapacity": 164
+    }
+  ],
+  "globalStats": {
+    "totalSelectedVehicles": 17,
+    "totalImpactAchieved": 701,
+    "totalDurationUsed": 86,
+    "totalAvailableCapacity": 644,
+    "overallUtilizationPercentage": 13.35
+  }
+}

@@ -3,6 +3,7 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const verifyToken = require("./notification_app_be/middleware/auth.middleware");
+const vehicleSchedulerRoutes = require("./vehicle_scheduler/index");
 
 const app = express();
 
@@ -13,6 +14,8 @@ app.use("/api", verifyToken);
 
 const testRoutes = require("./notification_app_be/routes/test.route");
 app.use("/api", testRoutes);
+
+app.use("/api/vehicle-scheduler", vehicleSchedulerRoutes);
 
 app.listen(5000, () => {
   console.log("Server running on port 5000");
